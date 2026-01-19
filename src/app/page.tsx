@@ -1,9 +1,5 @@
-import IdentityScrollSection from "../components/IdentityScrollSection";
+import GalleryPage from '../components/gallery/GalleryPage'
 
 export default function HomePage() {
-  return (
-    <main className="min-h-screen bg-slate-950 text-slate-50">
-      <IdentityScrollSection />
-    </main>
-  );
+  return <GalleryPage />;
 }
